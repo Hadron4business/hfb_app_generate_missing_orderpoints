@@ -16,7 +16,7 @@
 # all copies or substantial portions of the Software.
 #
 #################################################################################
-"""	@version	19.0.1.0.2
+"""	@version	17.0.1.0.0
 	@owner  Hadron for Business
 	@author Hadron for Business sp. z o.o.
 	@date   2026.10.06
@@ -80,7 +80,7 @@ class StockOrderpointGenerator(models.TransientModel):
     def _get_products_without_rule(self):
         self.ensure_one()
         domain = [
-            ('is_storable', '=', True),
+            ('type', '=', 'product'),
             ('company_id', 'in', [False, self.company_id.id]),
         ]
         if self.category_id:
@@ -128,7 +128,7 @@ class StockOrderpointGenerator(models.TransientModel):
             'type': 'ir.actions.act_window',
             'name': _("Created Reordering Rules"),
             'res_model': 'stock.warehouse.orderpoint',
-            'view_mode': 'list,form',
+            'view_mode': 'tree,form',
             'domain': [('id', 'in', rules.ids)],
             'target': 'current',
         }

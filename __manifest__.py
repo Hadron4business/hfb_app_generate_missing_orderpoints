@@ -34,7 +34,7 @@ category and the minimum / maximum quantity, and it creates a rule for every
 storable product that does not have one yet. Products that already have a
 rule are left alone.
 """,
-    'version': "19.0.1.0.2",
+    'version': "20.0.1.0.0",
     'author': "Hadron for Business sp. z o.o.",
     'website': "http://hadronforbusiness.com",
     'license': "OPL-1",
@@ -43,7 +43,7 @@ rule are left alone.
         'stock',
     ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.access.csv',
         'views/orderpoint_generator_views.xml',
     ],
     'images': [

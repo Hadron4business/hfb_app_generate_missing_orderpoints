@@ -22,7 +22,7 @@ A wizard that creates reordering rules (min/max) for all storable products that 
 
 ## Good to know
 
-- Only storable products are considered (Track Inventory ticked).
+- Only storable products are considered (Product Type: Storable Product).
 - Rules are created with the standard trigger of Odoo (automatic).
 - Archived rules count as existing rules, so a product whose rule you archived is not given a new one.
 - Running it again is safe: it only adds rules for products that still have none.

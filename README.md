@@ -35,4 +35,4 @@ A wizard that creates reordering rules (min/max) for all storable products that 
 
 ## Status
 
-Source: client module (Odoo 19), where the rule was created by a hand-run scheduled action in a hard-coded location. Rewritten as a wizard. Odoo 19 build; ports to other series on request.
+Source: client module (Odoo 19), where the rule was created by a hand-run scheduled action in a hard-coded location. Rewritten as a wizard. Odoo 18 build.

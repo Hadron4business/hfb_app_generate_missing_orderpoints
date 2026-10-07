@@ -1,0 +1,158 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hfb_app_generate_missing_orderpoints
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-07 07:15+0000\n"
+"PO-Revision-Date: 2026-10-07 07:15+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model_terms:ir.ui.view,arch_db:hfb_app_generate_missing_orderpoints.view_stock_orderpoint_generator_form
+msgid "Cancel"
+msgstr "Anuluj"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__company_id
+msgid "Company"
+msgstr "Firma"
+
+#. module: hfb_app_generate_missing_orderpoints
+#. odoo-python
+#: code:addons/hfb_app_generate_missing_orderpoints/models/orderpoint_generator.py:0
+msgid "Created Reordering Rules"
+msgstr "Utworzone reguły uzupełniania"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__create_uid
+msgid "Created by"
+msgstr "Utworzone przez"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__create_date
+msgid "Created on"
+msgstr "Data utworzenia"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__display_name
+msgid "Display Name"
+msgstr "Nazwa wyświetlana"
+
+#. module: hfb_app_generate_missing_orderpoints
+#. odoo-python
+#: code:addons/hfb_app_generate_missing_orderpoints/models/orderpoint_generator.py:0
+msgid "Every matching product already has a reordering rule."
+msgstr "Każdy pasujący produkt ma już regułę uzupełniania."
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model_terms:ir.ui.view,arch_db:hfb_app_generate_missing_orderpoints.view_stock_orderpoint_generator_form
+msgid "Generate"
+msgstr "Generuj"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.actions.act_window,name:hfb_app_generate_missing_orderpoints.action_stock_orderpoint_generator
+#: model:ir.model,name:hfb_app_generate_missing_orderpoints.model_stock_orderpoint_generator
+#: model:ir.ui.menu,name:hfb_app_generate_missing_orderpoints.menu_stock_orderpoint_generator
+#: model_terms:ir.ui.view,arch_db:hfb_app_generate_missing_orderpoints.view_stock_orderpoint_generator_form
+msgid "Generate Missing Reordering Rules"
+msgstr "Generuj brakujące reguły uzupełniania"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields.selection,name:hfb_app_generate_missing_orderpoints.selection__stock_orderpoint_generator__skip_mode__any
+msgid "Has a rule in any location"
+msgstr "Mają regułę w dowolnej lokalizacji"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields.selection,name:hfb_app_generate_missing_orderpoints.selection__stock_orderpoint_generator__skip_mode__location
+msgid "Has a rule in the chosen location"
+msgstr "Mają regułę w wybranej lokalizacji"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__write_uid
+msgid "Last Updated by"
+msgstr "Ostatnio aktualizowane przez"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__write_date
+msgid "Last Updated on"
+msgstr "Data ostatniej aktualizacji"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__location_id
+msgid "Location"
+msgstr "Lokalizacja"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__product_max_qty
+msgid "Maximum Quantity"
+msgstr "Ilość maksymalna"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__product_min_qty
+msgid "Minimum Quantity"
+msgstr "Ilość minimalna"
+
+#. module: hfb_app_generate_missing_orderpoints
+#. odoo-python
+#: code:addons/hfb_app_generate_missing_orderpoints/models/orderpoint_generator.py:0
+msgid "Nothing to do"
+msgstr "Nic do zrobienia"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,help:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__category_id
+msgid ""
+"Only products of this category (and its subcategories). Leave empty for all "
+"storable products."
+msgstr ""
+"Tylko produkty z tej kategorii (i jej podkategorii). Zostaw puste dla "
+"wszystkich produktów magazynowych."
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__category_id
+msgid "Product Category"
+msgstr "Kategoria produktu"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,help:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__skip_mode
+msgid "Products matching this condition are not given a new rule."
+msgstr "Produkty spełniające ten warunek nie dostaną nowej reguły."
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__product_count
+msgid "Products to Receive a Rule"
+msgstr "Produkty, które dostaną regułę"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__skip_mode
+msgid "Skip Products That"
+msgstr "Pomiń produkty, które"
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,help:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__location_id
+msgid "The rules are created for this location."
+msgstr "Reguły są tworzone dla tej lokalizacji."
+
+#. module: hfb_app_generate_missing_orderpoints
+#: model:ir.model.fields,field_description:hfb_app_generate_missing_orderpoints.field_stock_orderpoint_generator__warehouse_id
+msgid "Warehouse"
+msgstr "Magazyn"
+
+#. module: hfb_app_generate_missing_orderpoints
+#. odoo-python
+#: code:addons/hfb_app_generate_missing_orderpoints/models/orderpoint_generator.py:0
+msgid "id"
+msgstr "id"
